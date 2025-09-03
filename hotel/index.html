@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Management System</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <header class="header">
+    <div class="logo">HotelLux</div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#rooms" class="nav-link">Rooms</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <h1 class="hero-title">Welcome to HotelLux</h1>
+    <p class="hero-description">Your comfort is our priority</p>
+    <a href="#rooms" class="btn-primary">Book Now</a>
+  </section>
+
+  <section id="rooms" class="rooms-section">
+    <h2 class="section-title">Our Rooms</h2>
+    <div class="room-card">
+      <img src="room1.avif" alt="Deluxe Room" class="room-image"/>
+      <h3 class="room-title">Deluxe Room</h3>
+      <p class="room-description">Spacious and luxurious room for two.</p>
+    </div>
+    <div class="room-card">
+      <img src="room2.avif" alt="Single Room" class="room-image"/>
+      <h3 class="room-title">Single Room</h3>
+      <p class="room-description">Perfect for solo travelers.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2 class="section-title">About Us</h2>
+    <p class="about-text">
+      HotelLux has been serving guests with excellence for over a decade. Our mission is to offer a luxurious and relaxing stay.
+    </p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" class="form-input" placeholder="Your Name" required />
+      <input type="email" class="form-input" placeholder="Your Email" required />
+      <textarea class="form-textarea" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text">&copy; 2025 HotelLux. All rights reserved.</p>
+  </footer>
+</body>
+</html>
